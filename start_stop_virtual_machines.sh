@@ -41,6 +41,12 @@ menu_vm(){
         echo "1) Listar máquinas virtuales de '$RED_VIRTUAL'"
         echo "2) Arrancar máquinas virtuales de '$RED_VIRTUAL'"
         echo "3) Parar máquinas virtuales red '$RED_VIRTUAL'"
+        
+#       echo "4) Guardar todas las maquinas virtuales de red virtual
+#       echo  hacerlo con managedsave 
+#        virsh list --managed-save --all"
+
+
         echo "4) Salir"
         read -p "Opción: " opcion
         case $opcion in
