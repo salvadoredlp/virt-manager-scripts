@@ -46,6 +46,8 @@ menu_vm(){
 #       echo  hacerlo con managedsave 
 #        virsh list --managed-save --all"
 
+#       echo 5) obtener configuracion dumpxml de una maquina virtual con virsh dumpxml nombremaquina
+#        echo ¿Mas opciones?
 
         echo "4) Salir"
         read -p "Opción: " opcion
